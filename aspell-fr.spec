@@ -4,7 +4,7 @@ Summary(pl):	Francuski s³ownik dla aspella
 Name:		aspell-fr
 Version:	0.50
 %define	subv	3
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		Applications/Text
