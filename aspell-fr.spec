@@ -2,17 +2,16 @@ Summary:	French dictionary for aspell
 Summary(fr):	Il s'agit de deux dictionnaires français pour aspell
 Summary(pl):	Francuski s³ownik dla aspella
 Name:		aspell-fr
-Version:	0.1
+Version:	0.50
 %define	subv	3
 Release:	1
 Epoch:		1
 License:	GPL
 Group:		Applications/Text
-Source0:	http://aspell.sourceforge.net/%{name}-%{version}-%{subv}.tar.bz2
+Source0:	ftp://ftp.gnu.org/gnu/aspell/%{name}-%{version}-%{subv}.tar.bz2
 URL:		http://aspell.sourceforge.net/
-BuildRequires:	aspell
-BuildRequires:	pspell-devel
-Requires:	aspell
+BuildRequires:	aspell >= 0.50.0
+Requires:	aspell >= 0.50.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -47,4 +46,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{_libdir}/aspell/*
 %{_datadir}/aspell/*
-%{_datadir}/pspell/*
