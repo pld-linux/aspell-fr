@@ -1,6 +1,6 @@
 Summary:	French dictionary for aspell
 Summary(fr):	Il s'agit de deux dictionnaires fran蓷is pour aspell
-Summary(pl):	Francuski s這wnik dla aspella
+Summary(pl):	S這wnik francuski dla aspella
 Name:		aspell-fr
 Version:	0.50
 %define	subv	3
@@ -22,7 +22,7 @@ French dictionary (i.e. word list) for aspell.
 Il s'agit de deux dictionnaires fran蓷is pour aspell.
 
 %description -l pl
-Francuski s這wnik (lista s堯w) dla aspella.
+S這wnik (lista s堯w) francuski dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
