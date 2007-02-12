@@ -1,6 +1,6 @@
 Summary:	French dictionary for aspell
-Summary(fr.UTF-8):   Il s'agit de deux dictionnaires français pour aspell
-Summary(pl.UTF-8):   Francuski słownik dla aspella
+Summary(fr.UTF-8):	Il s'agit de deux dictionnaires français pour aspell
+Summary(pl.UTF-8):	Francuski słownik dla aspella
 Name:		aspell-fr
 Version:	0.50
 %define	subv	3
