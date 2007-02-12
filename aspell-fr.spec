@@ -1,6 +1,6 @@
 Summary:	French dictionary for aspell
-Summary(fr):	Il s'agit de deux dictionnaires franÁais pour aspell
-Summary(pl):	Francuski s≥ownik dla aspella
+Summary(fr.UTF-8):   Il s'agit de deux dictionnaires fran√ßais pour aspell
+Summary(pl.UTF-8):   Francuski s≈Çownik dla aspella
 Name:		aspell-fr
 Version:	0.50
 %define	subv	3
@@ -18,11 +18,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 French dictionary (i.e. word list) for aspell.
 
-%description -l fr
-Il s'agit de deux dictionnaires franÁais pour aspell.
+%description -l fr.UTF-8
+Il s'agit de deux dictionnaires fran√ßais pour aspell.
 
-%description -l pl
-Francuski s≥ownik (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+Francuski s≈Çownik (lista s≈Ç√≥w) dla aspella.
 
 %prep
 %setup -q -n %{name}-%{version}-%{subv}
